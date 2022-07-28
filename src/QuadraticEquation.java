@@ -24,13 +24,13 @@ public class QuadraticEquation {
     }
 
     public double getRoot1() {
-        return (-b + Math.sqrt(getDelta())) / 2 * a;
+        return (-b + Math.sqrt(getDelta())) / (2 * a);
     }
 
     public double getRoot2() {
-        return (-b - Math.sqrt(getDelta())) / 2 * a;
+        return (-b - Math.sqrt(getDelta())) / (2 * a);
     }
     public double motNghiem(){
-        return -b/2*a;
+        return -b/(2*a);
     }
 }
